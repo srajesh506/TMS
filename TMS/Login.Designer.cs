@@ -30,44 +30,44 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlloginpage = new System.Windows.Forms.Panel();
             this.lbltaskmanagement = new System.Windows.Forms.Label();
             this.lblsystem = new System.Windows.Forms.Label();
             this.lblwelcome = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picboxlogo = new System.Windows.Forms.PictureBox();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnforgotpwd = new System.Windows.Forms.Button();
             this.btnlogin = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.pnlpwd = new System.Windows.Forms.Panel();
             this.txtpwd = new System.Windows.Forms.TextBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.picboxpwdicon = new System.Windows.Forms.PictureBox();
+            this.pnlusrname = new System.Windows.Forms.Panel();
             this.txtusername = new System.Windows.Forms.TextBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.picboxusrnameicon = new System.Windows.Forms.PictureBox();
+            this.lbllogintoacc = new System.Windows.Forms.Label();
             this.btnclose = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlloginpage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxlogo)).BeginInit();
             this.panelMain.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pnlpwd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxpwdicon)).BeginInit();
+            this.pnlusrname.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxusrnameicon)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlloginpage
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.panel1.Controls.Add(this.lbltaskmanagement);
-            this.panel1.Controls.Add(this.lblsystem);
-            this.panel1.Controls.Add(this.lblwelcome);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(750, 530);
-            this.panel1.TabIndex = 0;
+            this.pnlloginpage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.pnlloginpage.Controls.Add(this.lbltaskmanagement);
+            this.pnlloginpage.Controls.Add(this.lblsystem);
+            this.pnlloginpage.Controls.Add(this.lblwelcome);
+            this.pnlloginpage.Controls.Add(this.picboxlogo);
+            this.pnlloginpage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlloginpage.Location = new System.Drawing.Point(0, 0);
+            this.pnlloginpage.Name = "pnlloginpage";
+            this.pnlloginpage.Size = new System.Drawing.Size(750, 530);
+            this.pnlloginpage.TabIndex = 0;
             // 
             // lbltaskmanagement
             // 
@@ -102,23 +102,23 @@
             this.lblwelcome.TabIndex = 0;
             this.lblwelcome.Text = "Welcome to the ";
             // 
-            // pictureBox1
+            // picboxlogo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(51, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(195, 172);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.picboxlogo.Image = ((System.Drawing.Image)(resources.GetObject("picboxlogo.Image")));
+            this.picboxlogo.Location = new System.Drawing.Point(51, 31);
+            this.picboxlogo.Name = "picboxlogo";
+            this.picboxlogo.Size = new System.Drawing.Size(195, 172);
+            this.picboxlogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picboxlogo.TabIndex = 0;
+            this.picboxlogo.TabStop = false;
             // 
             // panelMain
             // 
-            this.panelMain.Controls.Add(this.button2);
+            this.panelMain.Controls.Add(this.btnforgotpwd);
             this.panelMain.Controls.Add(this.btnlogin);
-            this.panelMain.Controls.Add(this.panel4);
-            this.panelMain.Controls.Add(this.panel3);
-            this.panelMain.Controls.Add(this.label4);
+            this.panelMain.Controls.Add(this.pnlpwd);
+            this.panelMain.Controls.Add(this.pnlusrname);
+            this.panelMain.Controls.Add(this.lbllogintoacc);
             this.panelMain.Controls.Add(this.btnclose);
             this.panelMain.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
             this.panelMain.Location = new System.Drawing.Point(300, 0);
@@ -126,20 +126,20 @@
             this.panelMain.Size = new System.Drawing.Size(450, 530);
             this.panelMain.TabIndex = 1;
             // 
-            // button2
+            // btnforgotpwd
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Control;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.button2.Location = new System.Drawing.Point(197, 321);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 25);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Forget Password ?";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Visible = false;
+            this.btnforgotpwd.BackColor = System.Drawing.SystemColors.Control;
+            this.btnforgotpwd.FlatAppearance.BorderSize = 0;
+            this.btnforgotpwd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnforgotpwd.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnforgotpwd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnforgotpwd.Location = new System.Drawing.Point(197, 321);
+            this.btnforgotpwd.Name = "btnforgotpwd";
+            this.btnforgotpwd.Size = new System.Drawing.Size(120, 25);
+            this.btnforgotpwd.TabIndex = 5;
+            this.btnforgotpwd.Text = "Forget Password ?";
+            this.btnforgotpwd.UseVisualStyleBackColor = false;
+            this.btnforgotpwd.Visible = false;
             // 
             // btnlogin
             // 
@@ -155,15 +155,15 @@
             this.btnlogin.UseVisualStyleBackColor = false;
             this.btnlogin.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel4
+            // pnlpwd
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Control;
-            this.panel4.Controls.Add(this.txtpwd);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Location = new System.Drawing.Point(-1, 237);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(450, 48);
-            this.panel4.TabIndex = 3;
+            this.pnlpwd.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlpwd.Controls.Add(this.txtpwd);
+            this.pnlpwd.Controls.Add(this.picboxpwdicon);
+            this.pnlpwd.Location = new System.Drawing.Point(-1, 237);
+            this.pnlpwd.Name = "pnlpwd";
+            this.pnlpwd.Size = new System.Drawing.Size(450, 48);
+            this.pnlpwd.TabIndex = 3;
             // 
             // txtpwd
             // 
@@ -179,27 +179,27 @@
             this.txtpwd.UseSystemPasswordChar = true;
             this.txtpwd.Click += new System.EventHandler(this.textBox2_Click);
             // 
-            // pictureBox3
+            // picboxpwdicon
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(7, 5);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(38, 38);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseDown);
-            this.pictureBox3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseUp);
+            this.picboxpwdicon.Image = ((System.Drawing.Image)(resources.GetObject("picboxpwdicon.Image")));
+            this.picboxpwdicon.Location = new System.Drawing.Point(7, 5);
+            this.picboxpwdicon.Name = "picboxpwdicon";
+            this.picboxpwdicon.Size = new System.Drawing.Size(38, 38);
+            this.picboxpwdicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picboxpwdicon.TabIndex = 5;
+            this.picboxpwdicon.TabStop = false;
+            this.picboxpwdicon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseDown);
+            this.picboxpwdicon.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseUp);
             // 
-            // panel3
+            // pnlusrname
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.Controls.Add(this.txtusername);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Location = new System.Drawing.Point(0, 185);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(449, 48);
-            this.panel3.TabIndex = 2;
+            this.pnlusrname.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlusrname.Controls.Add(this.txtusername);
+            this.pnlusrname.Controls.Add(this.picboxusrnameicon);
+            this.pnlusrname.Location = new System.Drawing.Point(0, 185);
+            this.pnlusrname.Name = "pnlusrname";
+            this.pnlusrname.Size = new System.Drawing.Size(449, 48);
+            this.pnlusrname.TabIndex = 2;
             // 
             // txtusername
             // 
@@ -215,26 +215,26 @@
             this.txtusername.Click += new System.EventHandler(this.textBox1_Click);
             this.txtusername.Leave += new System.EventHandler(this.txtusername_Leave);
             // 
-            // pictureBox2
+            // picboxusrnameicon
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(6, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(38, 38);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.picboxusrnameicon.Image = ((System.Drawing.Image)(resources.GetObject("picboxusrnameicon.Image")));
+            this.picboxusrnameicon.Location = new System.Drawing.Point(6, 4);
+            this.picboxusrnameicon.Name = "picboxusrnameicon";
+            this.picboxusrnameicon.Size = new System.Drawing.Size(38, 38);
+            this.picboxusrnameicon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picboxusrnameicon.TabIndex = 4;
+            this.picboxusrnameicon.TabStop = false;
             // 
-            // label4
+            // lbllogintoacc
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
-            this.label4.Location = new System.Drawing.Point(38, 123);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(233, 25);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Login to your account";
+            this.lbllogintoacc.AutoSize = true;
+            this.lbllogintoacc.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbllogintoacc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.lbllogintoacc.Location = new System.Drawing.Point(38, 123);
+            this.lbllogintoacc.Name = "lbllogintoacc";
+            this.lbllogintoacc.Size = new System.Drawing.Size(233, 25);
+            this.lbllogintoacc.TabIndex = 1;
+            this.lbllogintoacc.Text = "Login to your account";
             // 
             // btnclose
             // 
@@ -258,44 +258,44 @@
             this.ClientSize = new System.Drawing.Size(750, 530);
             this.ControlBox = false;
             this.Controls.Add(this.panelMain);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlloginpage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlloginpage.ResumeLayout(false);
+            this.pnlloginpage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxlogo)).EndInit();
             this.panelMain.ResumeLayout(false);
             this.panelMain.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.pnlpwd.ResumeLayout(false);
+            this.pnlpwd.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxpwdicon)).EndInit();
+            this.pnlusrname.ResumeLayout(false);
+            this.pnlusrname.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picboxusrnameicon)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlloginpage;
         private System.Windows.Forms.Label lbltaskmanagement;
         private System.Windows.Forms.Label lblsystem;
         private System.Windows.Forms.Label lblwelcome;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picboxlogo;
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Button btnclose;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel pnlusrname;
+        private System.Windows.Forms.Label lbllogintoacc;
+        private System.Windows.Forms.Panel pnlpwd;
+        private System.Windows.Forms.PictureBox picboxpwdicon;
+        private System.Windows.Forms.PictureBox picboxusrnameicon;
         private System.Windows.Forms.TextBox txtpwd;
         private System.Windows.Forms.TextBox txtusername;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnforgotpwd;
         private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.Timer timer1;
     }

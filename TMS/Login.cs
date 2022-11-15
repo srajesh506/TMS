@@ -126,17 +126,17 @@ namespace TMS
         public void focustxtusername()
         {
             txtusername.BackColor = Color.White;
-            panel3.BackColor = Color.White;
-            panel4.BackColor = SystemColors.Control;
+            pnlusrname.BackColor = Color.White;
+            pnlpwd.BackColor = SystemColors.Control;
             txtpwd.BackColor = SystemColors.Control;
 
         }
         public void focustxtpwd()
         {
             txtpwd.BackColor = Color.White;
-            panel4.BackColor = Color.White;
+            pnlpwd.BackColor = Color.White;
             txtusername.BackColor = SystemColors.Control;
-            panel3.BackColor = SystemColors.Control;
+            pnlusrname.BackColor = SystemColors.Control;
         }
     }
 }
